@@ -1,0 +1,128 @@
+/*=======BASE STYLE==============*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+ /*=====================*/
+
+
+ /*=======HEADER========*/
+
+header {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid blue;
+    background-image: linear-gradient(to bottom, white, #f7f7f7);
+    z-index: 1;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.right-up-menu a, .right-down-menu a, .left-wrapper a {
+    color: #0545AD;
+    font-family: sans-serif;
+}
+
+.right-down-menu input {
+    width: 18.125rem;
+}
+
+ .right-up-menu p, .right-down-menu p, .left-wrapper p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.right-up-menu {
+    position: absolute;
+    top: .375rem;
+    right: .75rem;
+    font-size: .75rem;
+    font-family: sans-serif;
+}
+
+.right-up-menu p {
+    padding: 0 .125rem;
+}
+
+.right-down-menu {
+    float: right;
+    margin-top: 2.5rem;
+    font-size: .8125rem;
+}
+
+.right-down-menu p, .left-wrapper p {
+    border-right: 1px solid #0545ad3f;
+    background-image: linear-gradient(to bottom, white, #dfecff);
+    margin: 0;
+    padding: 0 .3125rem;
+    line-height: 1.875rem;
+}
+
+.left-wrapper {
+    float: left;
+    margin-left: 10.9375rem;
+    margin-top: 2.5rem;
+    font-size: .8125rem;
+}
+
+/*=========NAVIGATION===============*/
+
+.navigation {
+    width: 10rem;
+    clear: both;
+    position: absolute;
+    z-index: 2;
+    padding-left: 20px!important;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.navigation a, .navigation span, .navigation p {
+    color: #0545AD;
+    line-height: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.menu-title {
+    color: #6E6E6E;
+    border-bottom: 1px solid #DEDEDE;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.edit-links {
+    float: right;
+    color: #6E6E6E;
+    font-size: 10px;
+}
+
+/*=====================================*/
+
+
+/*==============CONTENT================*/
+
+.content {
+    clear: both;
+    background-color: white;
+    border: 1px solid #a7d7f9;
+    width: 90%;
+    height: 400px;
+    margin-left: 10.98rem;
+    box-sizing: border-box;
+}
