@@ -123,6 +123,6 @@ header a:hover {
     border: 1px solid #a7d7f9;
     width: 90%;
     height: 400px;
-    margin-left: 10.98rem;
-    box-sizing: border-box;
+    position: relative;
+    left: 10.98rem;
 }
