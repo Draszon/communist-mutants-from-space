@@ -9,6 +9,10 @@ a {
     color: #0545AD;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     background-color: #f6f6f6;
 }
@@ -24,10 +28,6 @@ header {
     border-bottom: 1px solid blue;
     background-image: linear-gradient(to bottom, white, #f7f7f7);
     z-index: 1;
-}
-
-header a:hover {
-    text-decoration: underline;
 }
 
 .right-up-menu a, .right-down-menu a, .left-wrapper a {
@@ -228,5 +228,29 @@ header a:hover {
 
 .plot hr, .gameplay hr {
     margin-top: 0;
-    margin-bottom: .3125rem;
+    margin-bottom: 1rem;
+}
+
+.game-img {
+    float: left;
+    font-size: 12px;
+    width: 190px;
+    border: 1px solid #BFBFBF;
+    background-color: #f6f6f6;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.game-img img {
+    width: 100%;
+}
+
+.gameplay h3 {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#last-p {
+    margin: 10px 0;
 }
