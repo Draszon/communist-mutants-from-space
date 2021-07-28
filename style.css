@@ -157,6 +157,7 @@ header {
     float: right;
     padding: .3125rem 1.25rem;
     font-size: .7575rem;
+    margin-left: 10px;
 }
 
 .infobox p {
@@ -222,7 +223,7 @@ header {
     padding-right: 17.375rem;
 }
 
-.plot, .gameplay {
+.plot, .gameplay, .easter-egg, .references, .further-reading, .external-links {
     margin-bottom: .625rem;
 }
 
@@ -233,13 +234,13 @@ header {
 
 .game-img {
     float: left;
-    font-size: 12px;
-    width: 190px;
+    font-size: .75rem;
+    width: 11.875rem;
     border: 1px solid #BFBFBF;
     background-color: #f6f6f6;
-    padding: 5px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    padding: .3125rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .game-img img {
@@ -248,9 +249,66 @@ header {
 
 .gameplay h3 {
     font-weight: bold;
-    margin: 15px 0;
+    margin: .9375rem 0;
 }
 
 #last-p {
-    margin: 10px 0;
+    margin: .625rem 0;
+}
+
+.references ol {
+    list-style-type: decimal;
+    margin-left: 2.5rem;
+    font-size: .75rem;
+}
+
+.further-reading ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
+    font-size: .75rem;
+}
+
+.external-links ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
+    font-size: .75rem;
+}
+
+.external-links ul a {
+    font-style: italic;
+}
+
+.categories {
+    border: 1px solid #a2a9b1;
+    padding: .3125rem .1875rem;
+    font-size: .8125rem;
+}
+
+.categories a {
+    display: inline-block;
+}
+
+.categories li {
+    display: inline-block;
+    padding: 0 .3125rem;
+    border-left: 1px solid #a2a9b1;
+}
+
+
+/*=============FOOTER=====================*/
+
+footer {
+    width: 100%;
+}
+
+.footer-content {
+    margin-left: 12.5rem;
+    line-height: 2;
+    font-size: .75rem;
+    font-family: sans-serif;
+    margin-top: 1.25rem;
+}
+
+.footer-content li {
+    display: inline-block;
 }
